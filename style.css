@@ -1,0 +1,186 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #ffffff;
+  margin: 0;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+.headers13 {
+  display: flex;
+  background-color: #162145;
+  flex-direction: column;
+  padding: 3%;
+  align-items: center;
+  text-align: center;
+}
+
+header h1, header h3, h2, h4, h5, h6 {
+  font-family: 'Times New Roman', Times, serif;
+  color: #dbdbff;
+  background-color:#162145;
+  text-align: center;
+  padding: 10px;
+}
+
+header h1 {
+  font-weight: bolder;
+  font-size: 50px;
+}
+
+header h3, h2, h4, h5, h6 {
+  font-size: 20px;
+}
+
+nav {
+  background-color: #055e8a;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+nav ul li {
+  margin: 10px 20px;
+}
+
+nav ul li a,
+nav ul li button {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover,
+nav ul li button:hover {
+  color: #8a8aff;
+}
+
+nav ul li button {
+  font-family: 'Times New Roman', Times, serif;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #055e8a;
+  color: #dbdbff;
+  border: 2px solid white;
+  transition: all 0.3s ease;
+}
+
+nav ul li button:focus {
+  outline: none;
+  border-color: #8a8aff;
+}
+
+.main-paragraph, .solutions, .ktownimage, .flex-container2, .video1, #concludingparagraph {
+  padding: 20px;
+  text-align: center;
+}
+
+#opening-paragraph {
+  max-width: 900px;
+  margin: 0 auto;
+  color: #121212;
+  font-size: 20px;
+  font-style: italic;
+}
+
+#concludingparagraph {
+  max-width: 1000px;
+  margin: 0 auto;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.flex-container, .flex-container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.ktownimage img, .flex-container2 img {
+  max-width: 100%;
+  height: auto;
+}
+
+.solutions {
+  max-width: 900px;
+  margin: 10px;
+  color: #121212;
+  font-size: 20px;
+  font-style: italic;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #162145;
+}
+
+footer h5 {
+  margin: 0;
+  color: #162145;
+  font-size: 25px;
+  align-items: center;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer ul li {
+  margin: 5px 0;
+}
+
+footer a {
+  text-decoration: underline;
+  color: #dbdbff;
+  font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 36px;
+  }
+
+  .main-paragraph, .solutions, .ktownimage, .flex-container2, .video1, #concludingparagraph {
+    padding: 10px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+  }
+
+  .flex-container, .flex-container2 {
+    flex-direction: column;
+  }
+
+  iframe {
+    width: 100%;
+    height: auto;
+  }
+
+  .video1 {
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+
